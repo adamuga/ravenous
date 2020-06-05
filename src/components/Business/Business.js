@@ -1,4 +1,5 @@
 import React from "react";
+import "./Business.css";
 
 let business = {
   imageSrc:
@@ -42,3 +43,5 @@ class Business extends React.Component {
     );
   }
 }
+
+export default Business;
